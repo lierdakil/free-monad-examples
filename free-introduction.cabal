@@ -1,0 +1,46 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           free-introduction
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/free-introduction#readme>
+homepage:       https://github.com/githubuser/free-introduction#readme
+bug-reports:    https://github.com/githubuser/free-introduction/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2022 Author name here
+license:        MIT
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/free-introduction
+
+library
+  exposed-modules:
+      AST
+      ASTDecomposed
+      ASTIf
+      BinTree
+      Exercises.BinTreeFold
+      Exercises.ReaderWriter
+      Exercises.Store
+      FreeList
+      FreeState
+      Lib
+  other-modules:
+      Paths_free_introduction
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , free
+    , mtl
+    , wl-pprint-annotated
+  default-language: Haskell2010
