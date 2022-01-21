@@ -34,6 +34,9 @@ library
       FreeList
       FreeState
       Lib
+      Solutions.BinTreeFold
+      Solutions.ReaderWriter
+      Solutions.Store
   other-modules:
       Paths_free_introduction
   hs-source-dirs:
